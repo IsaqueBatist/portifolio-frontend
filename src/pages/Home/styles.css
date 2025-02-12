@@ -1,9 +1,14 @@
 @import url('../../vars.css');
 
 .home-container{
-  min-height: 91vh;
-
+  height: 87vh;
   display: flex;
+  flex-direction: column;
+}
+
+main{
+  display: flex;
+  height: 100%;
   justify-content: space-around;
   align-items: center;
 

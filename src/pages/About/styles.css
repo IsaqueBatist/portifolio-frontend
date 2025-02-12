@@ -1,0 +1,47 @@
+@import url('../../vars.css');
+
+.about-container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcyan;
+}
+
+.about-content{
+  background-color: lightyellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content-text-section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.content-title{
+  font-family: var(--title-font);
+  font-size: 10.1rem;
+  font-weight: bold;
+}
+
+.content-text{
+  font-family: var(--text-font);
+  font-size: 3.6rem;
+}
+
+
+.monkey{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+img{
+  width: 65rem;
+  height: 65rem;
+}

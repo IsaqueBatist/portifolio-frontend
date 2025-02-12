@@ -1,0 +1,33 @@
+.scroll-container{
+  align-self: center;
+  width: 4.5rem;
+  height: 10.4rem;
+  border: .1rem solid black;
+  border-radius: 1.9rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  img{
+    width: 3.7rem;
+    height: 3.7rem;
+    margin-bottom: .5rem;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating {
+  animation: float 1.5s ease-in-out infinite;
+}

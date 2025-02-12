@@ -1,10 +1,9 @@
 import React from 'react';
+import Header from './components/Header/Header.tsx';
 
 function App() {
   return (
-    <div>
-      <h1>Portifolio</h1>
-    </div>
+    <Header />
   );
 }
 

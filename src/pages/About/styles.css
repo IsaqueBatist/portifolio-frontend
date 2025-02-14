@@ -6,20 +6,22 @@
   justify-content: center;
   align-items: center;
   background-color: lightcyan;
+  
 }
 
 .about-content{
   background-color: lightyellow;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
 .content-text-section{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 62.5rem;
 }
 
 .content-title{
@@ -31,8 +33,36 @@
 .content-text{
   font-family: var(--text-font);
   font-size: 3.6rem;
+  span{
+    color: var(--primary-color);
+    font-weight: bold;
+  }
 }
 
+.socialmedias{
+  display: flex;
+  margin-top: 1.7rem;
+  width: 100%;
+  gap: 1.7rem;
+  img{
+    width: 6.7rem;
+    height: 6.7rem;
+  }
+}
+
+.technologies{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  & .techonologies-title{
+    font-size: 3.8rem;
+    font-family: var(--title-font);
+    font-weight: bold;
+
+    margin-top: 2.3rem;
+  }
+}
 
 .monkey{
   position: fixed;
@@ -42,6 +72,6 @@
 
 
 img{
-  width: 65rem;
-  height: 65rem;
+  width: 75rem;
+  height: 75rem;
 }

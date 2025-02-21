@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
 import './styles.css'
 
-import githubIcon from "../../assets/svg/github-icon.svg"
-
 import bootstrapIcon from "../../assets/svg/bootstrap.svg"
 import figmaIcon from "../../assets/svg/figma.svg"
 import gitIcon from "../../assets/svg/git.svg"

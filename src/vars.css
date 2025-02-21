@@ -10,6 +10,6 @@
 
   /* Fonst */
   --title-font: "DM Sans", sans-serif;
-  --text-font: "Ubuntu";
+  --text-font: "Ubuntu", sans-serif;
 
 }

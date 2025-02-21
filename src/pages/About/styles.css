@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .about-content{
@@ -67,7 +67,6 @@
   top: 0;
   left: 0;
 }
-
 
 img{
   width: 75rem;

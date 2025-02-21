@@ -5,12 +5,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: lightcyan;
   
 }
 
 .about-content{
-  background-color: lightyellow;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -45,15 +43,15 @@
   width: 100%;
   gap: 1.7rem;
   img{
-    width: 6.7rem;
-    height: 6.7rem;
+    width: 5rem;
+    height: 5rem;
   }
 }
 
 .technologies{
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 1.5rem;
 
   & .techonologies-title{
     font-size: 3.8rem;

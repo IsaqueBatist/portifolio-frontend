@@ -5,6 +5,7 @@ import monkey from "../../assets/image/monkey.png"
 import aboutPlant from "../../assets/image/about-plant.png"
 import linkedin from "../../assets/svg/linkedin-icon.svg"
 import github from "../../assets/svg/github-icon.svg"
+import InfinitySkillsAnimation from '../../components/InfinitySkillsAnimation/InfinitySkillsAnimation.tsx'
 
 export default function About() {
   return (
@@ -20,12 +21,13 @@ export default function About() {
           </div>
           <div className="technologies">
             <h3 className='techonologies-title'>Technologies and Tools</h3>
-            <div className="carousel"></div>
+            <div className="carousel">
+              <InfinitySkillsAnimation />
+            </div>
           </div>
         </div>
         <img src={aboutPlant} alt="about plant" />
       </section>
     </div>
-
   )
 }

@@ -1,0 +1,6 @@
+@import url('../../vars.css');
+
+.pageProgress-container{
+  display: flex;
+  flex-direction: column;
+}

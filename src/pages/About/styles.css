@@ -24,13 +24,13 @@
 
 .content-title{
   font-family: var(--title-font);
-  font-size: 10.1rem;
+  font-size: var(--title-size);
   font-weight: bold;
 }
 
 .content-text{
   font-family: var(--text-font);
-  font-size: 3.6rem;
+  font-size: var(--text-size);
   span{
     color: var(--primary-color);
     font-weight: bold;
@@ -54,7 +54,7 @@
   gap: 1.5rem;
 
   & .techonologies-title{
-    font-size: 3.8rem;
+    font-size: var(--subtitle-size);
     font-family: var(--title-font);
     font-weight: bold;
 
@@ -69,6 +69,6 @@
 }
 
 img{
-  width: 75rem;
-  height: 75rem;
+  width: 50rem;
+  height: 50rem;
 }

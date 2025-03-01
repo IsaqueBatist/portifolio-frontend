@@ -8,8 +8,12 @@
   --secondary-color: #265942;
   --tertiary-color: #D9D9D9;
 
-  /* Fonst */
+  /* Fonts */
   --title-font: "DM Sans", sans-serif;
   --text-font: "Ubuntu", sans-serif;
 
+  /*Sizes*/
+  --title-size: 8rem;
+  --subtitle-size: 3.8rem;
+  --text-size: 3rem;
 }
